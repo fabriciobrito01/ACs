@@ -16,7 +16,6 @@ def eq_seg_grau(a, b, c):
     r2 = (-b - ((b ** 2 - 4 * a * c) ** 0.5)) / (2 * a)
     print('A primeira raiz é ', r1)
     print('A segunda raiz é ', r2)
-    return r1, r2
 
 
 def bissexto(ano):
@@ -26,6 +25,7 @@ def bissexto(ano):
 
 
 # Ex2
+
 
 def calcula_salario(valor_hora, num_horas, irpf=0.275):
     '''Recebe dois parâmetros posicionais reais e um parâmetro-chave e
