@@ -14,8 +14,7 @@ def eq_seg_grau(a, b, c):
     '''Recebe 3 valores e retorna as raízes de uma equação de segundo grau.'''
     r1 = (-b + ((b ** 2 - 4 * a * c) ** 0.5)) / (2 * a)
     r2 = (-b - ((b ** 2 - 4 * a * c) ** 0.5)) / (2 * a)
-    print('A primeira raiz é ', r1)
-    print('A segunda raiz é ', r2)
+    return r1, r2
 
 
 def bissexto(ano):
@@ -36,7 +35,7 @@ def calcula_salario(valor_hora, num_horas, irpf=0.275):
 
 def main():
     '''Chama as funções utilizadas.'''
-    eq_seg_grau(1, -6, 8)
+    print('As raízes são, respectivamente: ', eq_seg_grau(2, 16, 3))
     print('O ano é bissexto? ', bissexto(1900))
     print('O salário líquido é de R$', calcula_salario(100, 100))
 
