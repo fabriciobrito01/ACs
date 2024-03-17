@@ -49,7 +49,7 @@ def main():
     print(teste_dia_semana(2))
     print(teste_dia_semana(6))
     print(teste_dia_semana(7))
-    print(teste_dia_semana(9))
+    print(teste_dia_semana(10))
 
 
 main()
