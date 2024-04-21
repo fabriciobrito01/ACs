@@ -7,13 +7,13 @@ Prof: Victor Machado
 Aluno: Fabrício de Brito
 '''
 
-x = int(input(''))
-y = int(input(''))
+x = int(input())
+y = int(input())
 
-s = x + y
 
 soma_nao_divisiveis = 0
-for c in range (s):
-    if not c % 13 == 0:
-        soma_nao_divisiveis += 1
+for c in range(x, y+1):
+    if c % 13 != 0:
+        soma_nao_divisiveis += c
+
 print(soma_nao_divisiveis)
