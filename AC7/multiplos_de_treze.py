@@ -10,9 +10,16 @@ Aluno: Fabrício de Brito
 x = int(input())
 y = int(input())
 
+if x > y:
+    maior = x
+    menor = y
+
+else:
+    menor = x
+    maior = y
 
 soma_nao_divisiveis = 0
-for c in range(x, y+1):
+for c in range(menor, maior+1):
     if c % 13 != 0:
         soma_nao_divisiveis += c
 
