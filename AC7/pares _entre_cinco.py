@@ -6,6 +6,7 @@ AC7
 Prof: Victor Machado
 Aluno: Fabrício de Brito
 '''
+
 par = 0
 for c in range (5):
     n = int(input(''))

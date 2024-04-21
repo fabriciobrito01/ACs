@@ -1,3 +1,11 @@
+'''
+Programação Estruturada
+2024.1
+21/04/2024
+AC7
+Prof: Victor Machado
+Aluno: Fabrício de Brito
+'''
 
 def aumento_de_salario():
     salario = float(input(''))
