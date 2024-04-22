@@ -5,6 +5,8 @@ Programação Estruturada
 AC7
 Prof: Victor Machado
 Aluno: Fabrício de Brito
+
+Coluna na Matriz - 1182
 '''
 
 C = int(input())

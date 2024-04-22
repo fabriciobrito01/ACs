@@ -5,6 +5,8 @@ Programação Estruturada
 AC7
 Prof: Victor Machado
 Aluno: Fabrício de Brito
+
+Pares Entre Cinco Números - 1065
 '''
 
 par = 0
@@ -12,4 +14,4 @@ for c in range (5):
     n = int(input(''))
     if n % 2 == 0:
         par += 1
-print(f'{par} é o número de pares.') 
+print(f'{par} é o número de pares.')

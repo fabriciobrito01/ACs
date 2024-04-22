@@ -5,6 +5,8 @@ Programação Estruturada
 AC7
 Prof: Victor Machado
 Aluno: Fabrício de Brito
+
+Múltiplos de 13 - 1132
 '''
 
 x = int(input())

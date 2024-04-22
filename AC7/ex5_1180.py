@@ -5,6 +5,8 @@ Programação Estruturada
 AC7
 Prof: Victor Machado
 Aluno: Fabrício de Brito
+
+Menor e Posição - 1180
 '''
 
 N = int(input())
