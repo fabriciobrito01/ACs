@@ -26,7 +26,6 @@ for i in range(12):
 
     vetor = []
 
-
 if T == 'M':
     media = soma / 12
     print(f'{media:.1f}')
